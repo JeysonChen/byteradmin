@@ -1,0 +1,20 @@
+.byter-system {
+    @import url('./button.less');
+    @import url('./header.less');
+    @import url('./switch.less');
+    @import url('./link.less');
+    @import url('./input.less');
+    @import url('./select.less');
+    @import url('./page.less');
+    @import url('./menu.less');
+}
+
+@import url('../variable.less');
+.el-button--primary {
+    background-color: @theme-color;
+    border-color: @theme-color;
+    &:focus, &:hover {
+        background-color: @theme-color-hover;
+        border-color: @theme-color-hover;
+    }
+}

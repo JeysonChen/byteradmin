@@ -1,0 +1,11 @@
+@import url('../variable.less');
+.el-link.el-link--primary {
+    color: @theme-color;
+    &:hover {
+        color: @theme-color;
+    }
+    margin: 5px;
+}
+.el-link.el-link--default:after, .el-link.el-link--primary.is-underline:hover:after, .el-link.el-link--primary:after {
+    border: none;
+}
